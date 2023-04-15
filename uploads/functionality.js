@@ -3,7 +3,7 @@
 let loader = document.getElementsByClassName('loader')
 let loaderbg = document.getElementById('loaderbg')
 
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
   function removeLoader() {
     loaderbg.classList.add('removed');
   }
